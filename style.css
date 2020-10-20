@@ -1,0 +1,12 @@
+  div {
+    margin-top: 10px;
+  }
+  div, input, p,table,tr,td {
+    text-align: center;
+  }
+
+  div, table {
+    align-items: center;
+    text-align: center;
+    width: -webkit-fill-available;
+  }

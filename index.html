@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso nos planetas</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h2>Peso nos planetas</h2>
+        Planeta:<br>
+        <select id="planeta" >
+            <option value="me">Mercurio</option>
+            <option value="ve">Venus</option>
+            <option value="ma">Marte</option>
+            <option value="ju">Jupiter</option>
+            <option value="sa">Saturno</option>
+            <option value="ur">Urano</option>
+        </select>
+        <p>
+        Peso<br><input type="text" placeholder="Peso" id="peso">
+        </p>
+        <button id="calcular">
+            Calcular Peso
+        </button> <br><br>
+        <p id="pesoPessoa"></p>
+        <table border="3">
+            <tr>
+                <td>Gravidade</td>
+                <td>Planeta</td>
+            </tr>
+            <tr>
+                <td>0,37</td>
+                <td>Mercurio</td>
+            </tr>
+            <tr>
+                <td>0,88</td>
+                <td>Venus</td>
+            </tr>
+            <tr>
+                <td>0,38</td>
+                <td>Marte</td>
+            </tr>
+            <tr>
+                <td>2,64</td>
+                <td>Jupiter</td>
+            </tr>
+            <tr>
+                <td>1,15</td>
+                <td>Saturno</td>
+            </tr>
+            <tr>
+                <td>1,17</td>
+                <td>Urano</td>
+            </tr>
+        </table>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
